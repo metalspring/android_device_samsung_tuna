@@ -271,3 +271,9 @@ service iprenew_eth0 /system/bin/dhcpcd -n
 
 service battery_charger /charger
 	class charger
+
+service dvbootscript /sbin/dvbootscript.sh
+	class main
+	user root
+	group root
+	oneshot
