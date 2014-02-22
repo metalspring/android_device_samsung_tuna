@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 	device/samsung/tuna/init.tuna.usb.rc:root/init.tuna.usb.rc \
 	device/samsung/tuna/fstab.tuna:root/fstab.tuna \
 	device/samsung/tuna/ueventd.tuna.rc:root/ueventd.tuna.rc \
-    device/samsung/tuna/dvbootscript.sh:root/sbin/dvbootscript.sh \
+	device/samsung/tuna/dvbootscript.sh:root/sbin/dvbootscript.sh \
 	device/samsung/tuna/media_profiles.xml:system/etc/media_profiles.xml \
 	device/samsung/tuna/media_codecs.xml:system/etc/media_codecs.xml \
 	device/samsung/tuna/gps.conf:system/etc/gps.conf \
