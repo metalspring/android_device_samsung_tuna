@@ -83,6 +83,8 @@ for i in /storage/emulated/*; do
   $bb mount -o remount,nosuid,nodev,noatime,nodiratime -t auto $i/Android/obb;
 done;
 
+/sbin/uci;
+
 # wait for systemui and increase its priority
 while sleep 1; do
   if [ `$bb pidof com.android.systemui` ]; then
