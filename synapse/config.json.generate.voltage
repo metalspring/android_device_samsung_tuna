@@ -54,7 +54,7 @@ while read FREQ UVOLT UNIT; do
 	default:'$UVOLT',
 	title:"'${FREQ//\:/}'",
 	action:"regulatorvolt '${FREQ}'",
-	unit:"' ${UNIT}'", min:1300, max:3500, step:10 }},'
+	unit:"' ${UNIT}'", min:800, max:3500, step:10 }},'
 done < /sys/devices/virtual/misc/customvoltage/regulator_voltages
 `
     ]

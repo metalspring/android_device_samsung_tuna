@@ -21,7 +21,7 @@ cat << CTAG
 	{ SSeekBar:{
 		title:"Internal storage read-ahead buffer",
 		description:"The read-ahead value on the internal phone memory.",
-		max:2048, min:128, unit:" kB", step:128,
+		max:4096, min:128, unit:" kB", step:128,
 		default:`cat /sys/block/mmcblk0/queue/read_ahead_kb`,
                 action:"generic /sys/block/mmcblk0/queue/read_ahead_kb"
 	}},
