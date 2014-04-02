@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
 	device/samsung/tuna/media_profiles.xml:system/etc/media_profiles.xml \
 	device/samsung/tuna/media_codecs.xml:system/etc/media_codecs.xml \
 	device/samsung/tuna/gps.conf:system/etc/gps.conf \
-	device/samsung/tuna/twrp.fstab:recovery/root/etc/twrp.fstab
+	device/samsung/tuna/twrp.fstab:recovery/root/etc/twrp.fstab \
+	device/samsung/tuna/init.recovery.tuna.rc:root/init.recovery.tuna.rc
 
 # Synapse Support
 PRODUCT_COPY_FILES += \
