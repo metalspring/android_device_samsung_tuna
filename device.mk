@@ -71,6 +71,10 @@ PRODUCT_COPY_FILES += \
 	device/samsung/tuna/fstab.tuna:root/fstab.tuna \
 	device/samsung/tuna/ueventd.tuna.rc:root/ueventd.tuna.rc \
 	device/samsung/tuna/dvbootscript.sh:root/sbin/dvbootscript.sh \
+	device/samsung/tuna/dvmediarevert:root/sbin/dvmediarevert \
+	device/samsung/tuna/hostapd:root/sbin/hostapd \
+	device/samsung/tuna/suspend_trim:root/sbin/suspend_trim \
+	device/samsung/tuna/media_profiles.xml.sr:root/sbin/media_profiles.xml \
 	device/samsung/tuna/media_profiles.xml:system/etc/media_profiles.xml \
 	device/samsung/tuna/media_codecs.xml:system/etc/media_codecs.xml \
 	device/samsung/tuna/gps.conf:system/etc/gps.conf \
